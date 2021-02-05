@@ -95,7 +95,7 @@ changyan_conf: false
 disqus:
   short_name: 'fanhaobai'
   api: '//disqus.skk.moe/disqus/'
-  api_key: '3e50RgcD9GRL5TCdTrFCh2xkCneEFv3msbhXnv7tYcSQUyd5dhj35temr6ZEwGQj'
+  api_key: 'TDw3KIqtFyEWY5QclXNR4eLUGbf1ukM3nVozef2YpcfQGDMmRIibPMo32Em76VNB'
   site_name: '樊浩柏科学院'
   admin: 'fanhaobai'
 
