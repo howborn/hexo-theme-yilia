@@ -21,12 +21,14 @@
       apikey: '<%= theme.disqus.api_key %>',
       admin: '<%= theme.disqus.admin %>',
     });
-
-    // fix a.disquscdn.com to c.disquscdn.com
-    var avatarElements = document.getElementsByClassName("avatar");
-    for (var i = 0; i < avatarElements.length; i++) {
-        img = avatarElements[i].getElementsByTagName("img")[0];
-        img.src = img.src.replace(/a\.disquscdn\.com/g, "c.disquscdn.com");
-    }
   })();
+
+  window.onload = function () {
+      // fix a.disquscdn.com to c.disquscdn.com
+      var avatarElements = document.getElementsByClassName("avatar");
+      for (var i = 0; i < avatarElements.length; i++) {
+          img = avatarElements[i].getElementsByTagName("img")[0];
+          img.src = img.src.replace(/a\.disquscdn\.com/g, "c.disquscdn.com");
+      }
+  }
 </script>
