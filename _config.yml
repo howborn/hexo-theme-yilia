@@ -33,7 +33,8 @@ rss: '/atom.xml'
 root: '/'
 
 # 版权信息
-copyright: fanhaobai.com - 蜀ICP备2021000086号
+copyright: 'fanhaobai.com'
+icp: '蜀ICP备2021000086号'
 
 # Content
 
