@@ -7,7 +7,7 @@
             <div class="row">
                 <ul class="tabs ">
                     <% for (var key in projectData.define) { %>
-                        <li id="<%= key %>-btn" class="tab col s<%= 12 / tabCount %>" style="border-bottom:2px solid #08c">
+                        <li id="<%= key %>-btn" class="tab col s<%= 12 / tabCount %>" style="<% if (key == 'diy') { %> border-bottom:2px solid #08c <% } %>">
                             <a class="read-btn" onclick="readBtn('<%= key %>')"><%= projectData.define[key] + '(' + projectData.contents[key].length + ')' %></a>
                         </li>
                     <% } %>
