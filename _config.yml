@@ -48,7 +48,7 @@ mathjax: true
 open_in_new: false
 
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
-reward_type: 0
+reward_type: 2
 # 打赏wording
 reward_wording: ''
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
