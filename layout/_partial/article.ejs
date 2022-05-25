@@ -35,7 +35,7 @@
       <% if ((theme.reward_type === 2 || (theme.reward_type === 1 && post.reward)) && !index){ %>
         <div class="page-reward" style="margin:10px 0;">
           <% if(theme.alipay) {%>
-          <img class="reward-img" src="<%= theme.alipay%>">
+          <img class="reward-img" style="width:300px;height:300px;display:inline;" src="<%= theme.alipay%>">
           <% } %>
           <% if(theme.weixin) {%>
           <img class="reward-img" style="width:300px;height:300px;display:inline;" src="<%= theme.weixin%>">
