@@ -54,7 +54,7 @@ reward_wording: ''
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
 alipay: ''
 # 微信二维码图片地址
-weixin: '//img0.fanhaobai.com/wechat.jpeg'
+weixin: '//www.fanhaobai.com/wechat.jpeg'
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
@@ -73,7 +73,7 @@ google_analytics: ''
 favicon: '/favicon.ico'
 
 #你的头像url
-avatar: '//img0.fanhaobai.com/header.jpg'
+avatar: '//www.fanhaobai.com/header.jpg'
 
 #是否开启分享
 share_jia: true
@@ -132,32 +132,17 @@ smart_menu:
 # dns预获取
 dns_prefetch:
   0: 'www.fanhaobai.com'
-  1: 'img.fanhaobai.com'
-  2: 'img0.fanhaobai.com'
-  3: 'img1.fanhaobai.com'
-  4: 'img2.fanhaobai.com'
-  5: 'img3.fanhaobai.com'
-  6: 'img4.fanhaobai.com'
-  7: 'img5.fanhaobai.com'
-  8: 'disqus.fanhaobai.com'
-  9: 'cdn.bootcss.com'
-  10: 'c.disquscdn.com'
-  11: 'assets-cdn.github.com'
-  12: 'cn.gravatar.com'
-  13: 'uploads.disquscdn.com'
+  1: 'cdn.bootcss.com'
+  2: 'c.disquscdn.com'
+  3: 'assets-cdn.github.com'
+  4: 'cn.gravatar.com'
+  5: 'uploads.disquscdn.com'
 
 friends:
   美团技术点评: 'http://tech.meituan.com'
   阿里云中间件: 'http://jm.taobao.org'
-  风雪之隅: 'http://www.laruence.com'
-  Rango: 'http://rango.swoole.com'
-  周梦康: 'https://mengkang.net'
-  肖世勇: 'http://www.syyong.com'
-  老叶茶馆: 'http://imysql.com'
-  十年踪迹: 'https://www.h5jun.com'
-  信海龙: 'http://www.bo56.com'
+  周梦康: 'https://mengkang.net/blog'
   凯冰科技: 'http://www.zkbhj.com'
-  嗯VIEW: 'https://www.umview.com'
   奔赴: 'https://www.3pub.cn'
 
 #aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
